@@ -33,4 +33,9 @@ public class MongoConfiguration extends AbstractMongoClientConfiguration
     {
         return MongoClients.create(mongoProperties.determineUri());
     }
+
+    @Override
+    protected boolean autoIndexCreation() {
+        return true;
+    }
 }
