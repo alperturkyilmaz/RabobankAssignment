@@ -30,7 +30,7 @@ Step #5: run the spring boot application
 > java -jar ./api/target/rabobank-assignment-api-0.0.1-SNAPSHOT.jar
 
 
-Step #4: test
+Step #6: Testing
 - (a) create accounts using POST "/account/" endpoint. Example payload:
 > {
   "accountType":"SAVINGS",
