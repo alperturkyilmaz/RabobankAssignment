@@ -11,15 +11,14 @@
 ## How to start
 
 Step #1:clone repository from github
-> https://github.com/RajuTalisetty/RabobankAssignment.git
+> https://github.com/alperturkyilmaz/RabobankAssignment.git
 
 Step #2: switch to local git repository directory
 
 > cd RabobankAssignment/
 
-Step #3: checkout the "assignment-alper-turkyilmaz" branch
-
-> git checkout assignment-alper-turkyilmaz/
+Step #3: ensure that you are in the main branch
+> git status
 
 Step #4: run maven build/install
 
@@ -28,7 +27,6 @@ Step #4: run maven build/install
 Step #5: run the spring boot application
 
 > java -jar ./api/target/rabobank-assignment-api-0.0.1-SNAPSHOT.jar
-
 
 Step #6: Testing
 - (a) create accounts using POST "/account/" endpoint. Example payload:
